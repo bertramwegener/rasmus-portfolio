@@ -5,6 +5,8 @@ import About from "./pages/About";
 import Clients from "./pages/Clients";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
+import { Navigate } from "react-router";
+import ClientDetail from "./components/ClientDetail"
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Route path="/clients" element={<Clients />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="*" element={<Navigate to="/" />} />
+      <Route path="/clients/:id" element={<ClientDetail />} />
 
     </Routes>
     </>

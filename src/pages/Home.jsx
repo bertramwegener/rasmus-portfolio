@@ -12,10 +12,8 @@ export default function Home() {
     <>
       <Header />
       <Expertise />
-      <ClientsSection />
       <CVHero />
       <BannerImage />
-      <ContactSection />
       <Footer />
       <ScrollToTopBtn />
     </>

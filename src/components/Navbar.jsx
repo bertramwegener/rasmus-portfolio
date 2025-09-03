@@ -1,12 +1,12 @@
-import { Link } from "react-router"; 
+import { NavLink } from "react-router"; 
 
-export default function () {
+export default function Navbar () {
     return (
         <nav>
-            <Link to="/">Forside</Link>
-            <Link to="/clients">Clients</Link>
-            <Link to="/about">About</Link>
-            <Link to="/contact">Contact</Link>
+            <NavLink to="/">Forside</NavLink>
+            <NavLink to="/clients">Clients</NavLink>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
         </nav>
     );
 }

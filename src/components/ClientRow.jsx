@@ -1,3 +1,5 @@
+import { NavLink } from "react-router";
+
 export default function ClientRow({ client }) {
   return (
     <section className="client-row">
@@ -16,6 +18,8 @@ export default function ClientRow({ client }) {
               <i className="ion-ios-arrow-forward"></i>{" "}
             </a>
           ))}
+          <br />
+          <NavLink to={`/clients/${client.id}`}>Læs mere</NavLink>
         </section>
       </article>
       <figure>

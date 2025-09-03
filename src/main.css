@@ -651,3 +651,10 @@ footer .logo {
   margin: 1em;
   color: var(--green);
 }
+
+
+/* Navbar */
+.active {
+  background-color: var(--light-green);
+  color: var(--green);
+}

@@ -1,7 +1,7 @@
-export default function () {
+import ClientsSection from "../components/ClientsSection";
+
+export default function Clients () {
     return (
-        <div>
-            <p>Clients page</p>
-        </div>
+        <ClientsSection />
     )
 }
